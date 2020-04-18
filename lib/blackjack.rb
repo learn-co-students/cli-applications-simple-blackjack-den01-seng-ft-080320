@@ -1,9 +1,11 @@
 def welcome
   # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
   # code #deal_card here
+  1..11.rand
 end
 
 def display_card_total
@@ -41,4 +43,3 @@ end
 def runner
   # code runner here
 end
-    
